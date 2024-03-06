@@ -110,7 +110,7 @@ pipeline {
 
         success {
         script {
-        slackSend channel: '#class-chat', color: '#439FE0', message: 'Baba Malı Değil, Alın Teri!! :hot_pepper: :fire: :disguised_face: :fire: :hot_pepper:', teamDomain: 'devops15tr', tokenCredentialId: 'jenkins-slack'
+        slackSend channel: '#class-chat', color: '#439FE0', message: 'Baba Malı Değil, Alın Teri!! :hot_pepper: :fire: :disguised_face: :fire: :hot_pepper:', teamDomain: 'devops15tr', tokenCredentialId: 'SlackCredential'
             }
         }
 
